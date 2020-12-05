@@ -15,7 +15,7 @@ const render = require("./lib/htmlRenderer");
 const employees = [];
 
 function buildTeam() {
-    startHtml();
+    createHtml();
     addMember();
 }
 
@@ -88,7 +88,7 @@ function addMember() {
     });
 }
 
-function startHtml() {
+function createHtml() {
     const html = `<!DOCTYPE html>
     <html lang="en">
     <head>
