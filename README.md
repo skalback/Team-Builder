@@ -15,7 +15,7 @@ When the user has completed building the team, the application will create an HT
  Before running the application the user must use npm install to install the required jest and inquirer dependencies.
     
   ## Usage
-  ![Team-Builder-Demo](/video/Team-Builder.webm) 
+  ![Team-Builder-Demo](/video/Team-Builder.gif) 
       
   ## Questions
   For any further questions you may have, please contact me at skalback@gmail.com. 
