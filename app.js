@@ -28,9 +28,10 @@ function addMember() {
         type: "list",
         message: "What is your team member's role?",
         choices: [
+            "Manager",
             "Engineer",
             "Intern",
-            "Manager"
+            
         ],
         name: "role"
     },
@@ -98,8 +99,8 @@ function startHtml() {
         <title>Team Profile</title>
     </head>
     <body>
-        <nav class="navbar navbar-dark bg-dark mb-5">
-            <span class="navbar-brand mb-0 h1 w-100 text-center">Team Profile</span>
+        <nav class="navbar navbar-dark bg-success mb-5">
+            <span class="navbar-brand mb-0 h2 w-100 text-center">My Team</span>
         </nav>
         <div class="container">
             <div class="row">`;
